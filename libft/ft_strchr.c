@@ -30,14 +30,3 @@ char	*ft_strchr(const char *s, int c)
 	}
 	return (NULL);
 }
-/*// int main(void)
-// {
-//     const char src[] = "teste";
-//     int e;
-
-//     e = 's';
-//     printf("%s\n", ft_strchr(src, e));
-    
-//     printf("%s\n", strchr(src, e));
-//     return (0);
-// } */

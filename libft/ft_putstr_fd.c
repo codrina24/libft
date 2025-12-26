@@ -23,11 +23,3 @@ void	ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
-/*// int     main(void)
-// {
-//     char s[] = "abc";
-//     ft_putstr_fd(s, 1);
-//     // printf("%s\n", s);
-//     return (0);
-// }
-*/

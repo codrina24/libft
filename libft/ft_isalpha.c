@@ -18,20 +18,4 @@ int	ft_isalpha(int c)
 		return (1);
 	return (0);
 }
-/*
-int	main(void)
-{
-	int c;
 
-	c = 61;
-	printf("%i\n", ft_isalpha(c));
-
-	
-	c = 97;
-	prntf("%i\n", isalpha(c));
-
-	c = 58;
-	printf("%i\n", isalpha(c));
-
-	return(0);
-} */

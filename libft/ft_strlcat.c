@@ -30,15 +30,3 @@ size_t	ft_strlcat(char *dest, const char *src, size_t n)
 	dest[lendest + i] = '\0';
 	return (lendest + lensrc);
 }
-/*
-int main(void)
-{
-    char dest[10] = "a";
-    char src[] = "abcd";
-    ft_strlcat(dest, src, 8);
-    printf("%s\n", dest);
-    strlcat(dest, src, 8);
-    printf("%s\n", dest);
-    return(0);
-}
-*/

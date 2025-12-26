@@ -12,14 +12,6 @@
 
 #include "libft.h"
 
-// char	toupp(unsigned int i, char c)
-// {
-// 	i = 0;
-// 	if (c >= 97 && c <= 122)
-
-// 			c -= 32;
-// 	return (c);
-// }
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	unsigned int	i;
@@ -41,11 +33,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
-// int main(void)
-// {
-//     char str[] = "abc";
-//     char *result;
-//     result = ft_strmapi(str, toupp);
-//     printf("%s\n", result);
-//     return (0);
-// }

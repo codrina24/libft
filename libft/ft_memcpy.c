@@ -30,14 +30,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}			
 	return (dest);
 }
-
-// int	main(void)
-// {
-// 	char	src[] = "";
-// 	unsigned char dest[4] = "";
-// 	ft_memcpy(dest, src, 4);
-// 	printf("%s\n", (unsigned char *)&dest);
-// 	memcpy(dest, src, 4);
-// 	printf("%s\n", (unsigned char *)&dest);
-// 	return (0); 
-// }

@@ -25,12 +25,3 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
-
-// int	main(void)
-// {
-// 	char str[10] = "abcdefghij";
-// 	printf("%s\n", str);
-// 	ft_bzero(str, 8);
-// 	printf("%s\n", str);
-// 	return (0);
-// }

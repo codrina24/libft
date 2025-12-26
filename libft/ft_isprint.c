@@ -18,12 +18,4 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
-/*
-int	main(void)
-{
-	int c;
 
-	c = 'a';
-	printf("%d\n", ft_isprint(c));
-	return (0);
-} */

@@ -41,10 +41,3 @@ size_t len)
 	new[i] = '\0';
 	return (new);
 }
-/*  
-// int main(void)
-// {
-//     char str[] = "abcd";
-//     ft_substr(str, 3, 6);
-//     printf("%s\n", str);      
-// } */

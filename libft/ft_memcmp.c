@@ -29,17 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-/*    //if (ss[i] != sss[i])
-	//	return (ss[i] - sss[i]);
-	return (0);
-}
-int main(void)
-{
-    const unsigned char str[] = "s";
-    const unsigned char str2[] = "sal";
-    //if (ac == 4)
-    printf("%d\n", ft_memcmp(str, str2, 4));
-    printf("%d\n", memcmp(str, str2, 4));
-   return (0); 
-}
-*/

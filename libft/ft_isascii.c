@@ -18,13 +18,4 @@ int	ft_isascii(int c)
 		return (1);
 	return (0);
 }
-/*
-int	main(void)
-{
-	int c;
 
-	c = '0';
-	printf("%d\n", ft_isascii(c));
-	return (0);
-}
-*/

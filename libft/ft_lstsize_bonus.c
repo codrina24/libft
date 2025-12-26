@@ -24,17 +24,3 @@ int	ft_lstsize(t_list *lst)
 	}
 	return (count);
 }
-/*
-// int main(void)
-// {
-//     t_list *src;
-
-//     src = (t_list *)malloc(sizeof(t_list));
-
-//     src->content = (void *)2455;
-//     src->next = NULL;
-
-//     printf("%d\n", ft_lstsize(src));
-//     return (0);
-// }
-*/

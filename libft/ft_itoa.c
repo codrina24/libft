@@ -62,15 +62,4 @@ char	*ft_itoa(int n)
 	}
 	return (str);
 }
-/*
-// int	main(void)
-// {
-//     int num1;
-//     char *a;
 
-//     num1 = 2147483647;
-// 	a = ft_itoa(num1);
-// 	printf("%s\n", a);
-// 	return (0);
-// }
-*/

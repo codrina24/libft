@@ -27,15 +27,3 @@ char	*ft_strrchr(const char *s, int c)
 		return ((char *)&s[len]);
 	return (NULL);
 }
-/*
-// int main(void)
-// {
-//     const char src[] = "hellex";
-//     int e;
-
-//     e = 'e';
-//     printf("%p\n", ft_strrchr(src, '5'));
-    
-//     printf("%p\n", strrchr(src, '5'));
-//     return (0);
-// } */

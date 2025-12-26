@@ -17,12 +17,3 @@ int	ft_tolower(int c)
 		c += 32;
 	return (c);
 }
-/*
-int	main(void)
-{
-	int a;
-	a = 'B';
-	printf("%c\n", ft_tolower(a));
-	return (0);
-}
-*/

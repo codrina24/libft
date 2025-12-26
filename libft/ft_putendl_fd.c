@@ -26,9 +26,3 @@ void	ft_putendl_fd(char *s, int fd)
 	}
 	ft_putchar_fd('\n', fd);
 }
-// int     main(void)
-// {
-//     char s[] = "end!";
-//     ft_putendl_fd(s, 2);
-//     return (0);
-// }

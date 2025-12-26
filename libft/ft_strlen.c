@@ -23,15 +23,3 @@ size_t	ft_strlen(const char *s)
 	}
 	return (i);
 }
-/*
-int	main(void)
-{
-	char *str = "abc";
-	int calcul;
-		
-	calcul = ft_strlen(str);
-	printf("%d\n", calcul);
-
-	return (0);
-}
-*/

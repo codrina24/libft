@@ -23,15 +23,3 @@ t_list	*ft_lstnew(void *content)
 	src->next = NULL;
 	return (src);
 }
-/*
-int	main(void)
-{
-	char	srcc[] = "abc";
-	t_list	*new;
-
-	new = ft_lstnew(srcc);
-	printf("%s\n", (char*)new->content);
-	printf("%s\n", (char*)new->next);
-	return (0);
-}
- */

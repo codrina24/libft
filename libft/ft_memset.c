@@ -28,15 +28,3 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (a);
 }
-/*
-int	main(void)
-{
-	char str[10] = "abcd";
-	ft_memset(str, 'a', 3);
-	printf("%s\n", str);
-	memset(str, 'a', 3);
-
-	printf("%s\n", str);
-	return (0);
-}
-*/

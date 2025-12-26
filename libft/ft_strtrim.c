@@ -36,12 +36,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	new = ft_substr(s1, first, (last - first + 1));
 	return (new);
 }
-/*    // int main(void)
-	// {
-	//     char all[] = "\\aab\\bbaa\\";
-	//     char search[] = "\\";
-	//     char *new;
-	//     new = ft_strtrim(all, search);
-	//     printf("%s\n", new);
-	//     return (0);
-	// } */

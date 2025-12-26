@@ -25,15 +25,3 @@ t_list	*ft_lstlast(t_list *lst)
 	}
 	return (dernier);
 }
-/*
-int	main(void)
-{
-t_list	*src;
-
-src = (t_list *)malloc(sizeof(t_list));
-src->content = (char *)"abc";
-src->next = NULL;
-printf("%s\n", (char *)ft_lstlast(src));
-return (0);
-}
-*/

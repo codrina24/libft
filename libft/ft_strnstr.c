@@ -32,14 +32,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
-
-// int	main(void)
-// {
-// 	const char bigg[] = "lorem do ipsum dolor sit amet";
-// 	const char littlee[] = "dolor";
-// 	char *ptr;
-// 	ptr = ft_strnstr(bigg, littlee, 16);	
-// 	printf("%s\n", ptr);       
-//     // ptr = strnstr(bigg, littlee, 20);
-//     // printf("%s\n", ptr);
-// } 

@@ -12,9 +12,6 @@
 
 #include "libft.h"
 
-// #include <sys/types.h>
-// #include <sys/stat.h>
-// #include <fcntl.h>
 
 void	ft_putnbr_fd(int n, int fd)
 {
@@ -39,21 +36,3 @@ void	ft_putnbr_fd(int n, int fd)
 	}
 }
 
-// int main(void)
-// {
-// 	int fd = open("./test.c", O_CREAT | O_WRONLY, 0777);
-// 	ft_putchar_fd('c', fd);
-// 	printf(" %d\n", fd);
-// 	close(fd);
-//   	//ft_putnbr_fd(2147483648, 1);
-// 	ft_putnbr_fd(1, 1);
-// 	printf("\n");
-// 	ft_putnbr_fd(-9, 1);
-// 	printf("\n");
-// 	ft_putnbr_fd(-1000, 1);
-// 	printf("\n");
-// 	ft_putnbr_fd(-0, 1);
-// 	printf("\n");
-// 	ft_putnbr_fd(-2147483648, 1);
-// 	return (0);
-// }

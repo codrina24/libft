@@ -90,27 +90,3 @@ char	**ft_split(char const *s, char c)
 	tab[n] = NULL;
 	return (tab);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	char	str[] = ",,,,123,,,,,,3141,,,,,,sdas1,2312,,,312,,,,";
-	char	d;
-	char	**result;
-	int		i;
-
-	d = ',';
-	result = ft_split(str, d);
-	i = 0;
-	while (result[i])
-	{
-		printf("[%i]{%s}\n", i, result[i]);
-		i++;
-	}
-	// while (str[i] != '\0');
-	// printf("%s\n", result);
-	return (0);
-}
-
-*/

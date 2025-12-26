@@ -29,13 +29,3 @@ char	*ft_strdup(const char *s)
 	duplicate[i] = '\0';
 	return (duplicate);
 }
-
-/*
-int main(void)
-// {
-//     char x[] = "abc";
-//     printf("%s\n", ft_strdup(x));
-//     printf("%s\n", strdup(x));
-
-//     return (0);   
-// } */

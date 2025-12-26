@@ -40,12 +40,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (signe * result);
 }
-/*
-// int	main(void)
-// {
-// 	const char	num[] = "--54";
-
-// 	printf("%d\n", ft_atoi(num));
-// 	printf("%d\n", atoi(num));
-// 	return (0);
-// } */

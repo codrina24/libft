@@ -22,15 +22,3 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
-/*
-
-int	main(void)
-{
-	unsigned char y;
-
-	y = 'o';
-	printf("%d\n", ft_isalnum(y));
-
-	return(0);
-} 
-*/

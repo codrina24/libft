@@ -31,19 +31,4 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}	
 	return (NULL);
 }
-/*
-int main(void)
-{
-    const void *yy;
-	
-	yy = "abcd";
-    int y;
-    y = 'a';	
-	ft_memchr(yy,y, 5);
-    printf("%s\n", (char *)yy);
-	printf("%s\n", (char *)memchr(yy, y, 5));
 
-    return (0);
-}
-
-*/

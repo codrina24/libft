@@ -29,18 +29,3 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	ft_bzero(ptr, result);
 	return (ptr);
 }
-/*
-int main(void)
-{
-    long *y;
-    
-    y = (long *)ft_calloc(10, sizeof(long *));
-    //y = (long *)calloc(20, 555555555555555);
-
-    if (y != NULL)
-        printf("ok");
-    else
-        printf("ko");
-    return (0);    
-}
-*/
