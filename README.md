@@ -1,6 +1,3 @@
-
-<img width="1536" height="587" alt="ChatGPT Image Dec 26, 2025, 11_20_18 PM(1)" src="https://github.com/user-attachments/assets/1b036feb-8ec4-44e0-a76e-d5f70d4ca105" />
-
 *This project has been created as part of the 42 curriculum by coholbur.*
 
 # Libft
